@@ -1,0 +1,26 @@
+{
+    "name": "aoyagikouhei/odf",
+    "description": "Open Document Format Reader",
+    "license": "MIT",
+    "keywords": ["spreadsheet"],
+    "homepage": "https://github.com/aoyagikouhei/odf",
+    "authors": [
+        {
+            "name": "aoyagikouhei",
+            "email": "aoyagi.kouhei@gmail.com",
+            "homepage": "http://aoyagikouhei.blog8.fc2.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "OpenDocumentFormat": "./src"
+        }
+    }
+}
